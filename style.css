@@ -13,20 +13,22 @@ body {
     clear: both;
 }
 
-.nav-bar {
-    width: 95%;
-    margin: auto;
-    position: sticky;
-    top: 0;
-}
 
 header {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)), url("images/background.jpg");
     height: 100vh;
-    -webkit-background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    position: relative;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 2.5%;
+    width: 95%;
+    margin: auto;
 }
 
 .logo img {
@@ -62,9 +64,8 @@ header {
 
 .welcome-text {
     position: absolute;
-    width: 600px;
-    height: 300px;
-    margin: 15% 30%;
+    width: 60%;
+    margin: 20% 20%;
     line-height: 3em;
 }
 
@@ -73,4 +74,11 @@ header {
     color: #fff;
     text-transform: uppercase;
     font-size: 50px;
+}
+
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
 }
