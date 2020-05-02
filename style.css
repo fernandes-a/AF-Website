@@ -62,6 +62,18 @@ nav {
     font-weight: bold;    
 }
 
+.nav-area a.contact {
+    color: #162e00;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.nav-area a.contact:hover {
+    background: none;
+    box-shadow:0px 0px 0px 2px #fff inset;
+    color: #fff;
+}
+
 .welcome-text {
     position: absolute;
     width: 60%;
