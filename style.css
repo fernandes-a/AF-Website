@@ -136,13 +136,23 @@ nav {
     float: right;
 }
 
-@media only screen and (max-width: 768px) {
-    .parallax {
+@media only screen and (max-width: 500px) {
+    header {
         background-attachment: scroll;
+        height: 60vh;
     }
 
     .welcome-text {
-      margin: auto;
+      margin: 40% 10%;
+      width: 80%;
+    }
+
+    .welcome-text h1 {
+        font-size: 35px;
+    }
+
+    .content h2 {
+        font-size: 25px;
     }
   
     .box {
