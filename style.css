@@ -107,10 +107,33 @@ nav {
 }
 
 .boxes {
-    width: 95%;
-    margin: auto;
-    background-color: #000000;
+    width: 92%;
+    margin: 20px auto;
     color: #ffffff;
+    text-align: center;
+    padding:20px 15px 0px 15px; 
+
+}
+
+.box {
+    display: inline-block;
+    width: 30%;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box.one {
+    float: left;
+}
+
+.box.two {
+    float: left;
+    margin-left: 5%;
+}
+
+.box.three {
+    float: right;
 }
 
 @media only screen and (max-device-width: 1366px) {
