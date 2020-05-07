@@ -92,7 +92,7 @@ nav {
 
 .content {
     margin: auto;
-    width: 100%;
+    width: 98%;
 }
 
 .content h2 {
@@ -104,6 +104,13 @@ nav {
 
 .content p {
     padding: 0% 5%;
+}
+
+.boxes {
+    width: 95%;
+    margin: auto;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 @media only screen and (max-device-width: 1366px) {
