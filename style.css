@@ -60,12 +60,14 @@ nav {
 .nav-area li a:hover {
     border-bottom: 2px #fff solid;
     font-weight: bold; 
+    transition: .5s;
 }
 
 .nav-area a.contact {
     color: #162e00;
     background-color: #fff;
     font-weight: bold;
+    transition: .5s;
 }
 
 .nav-area a.contact:hover {
@@ -149,45 +151,26 @@ nav {
     float: right;
 }
 
-@media only screen and (max-width: 500px) {
-    header {
-        background-attachment: scroll;
-        height: 60vh;
-    }
-
-    .welcome-text {
-      margin: 40% 10%;
-      width: 80%;
-    }
-
-    .welcome-text h1 {
-        font-size: 35px;
-    }
-
-    .content h2 {
-        font-size: 25px;
-    }
-  
+@media only screen and (max-width: 650px) {
     .box {
-      display: block;
-      width: 98%;
-      height: 50vh;
-    }
-
-    .box.one {
-        margin-right: 1%;
-    }
-
-    .box.two {
-        margin: 20px 0;
-        margin-right: 1%;
-    }
-
-    .box.three {
-        float: left;
-        margin-right: 1%;
-    }
-
+        display: block;
+        width: 98%;
+        height: 50vh;
+      }
+  
+      .box.one {
+          margin-right: 1%;
+      }
+  
+      .box.two {
+          margin: 20px 0;
+          margin-right: 1%;
+      }
+  
+      .box.three {
+          float: left;
+          margin-right: 1%;
+      }
 }
 
 @media only screen and (max-width: 570px) {
@@ -222,5 +205,23 @@ nav {
 
     #check:checked ~ ul {
         left: 0;
+    }
+
+    header {
+        background-attachment: scroll;
+        height: 60vh;
+    }
+
+    .welcome-text {
+      margin: 40% 10%;
+      width: 80%;
+    }
+
+    .welcome-text h1 {
+        font-size: 35px;
+    }
+
+    .content h2 {
+        font-size: 25px;
     }
 }
