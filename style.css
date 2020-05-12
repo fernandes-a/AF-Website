@@ -131,11 +131,14 @@ nav {
 
 .box {
     display: inline-block;
+    box-sizing: border-box;
     width: 30%;
     height: 24vw;
     background-color: #fff;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    position: relative;
 }
 
 .box.one {
@@ -151,7 +154,25 @@ nav {
     float: right;
 }
 
-@media only screen and (max-width: 950px) {
+.box h3 {
+    color: #3d4337;
+}
+
+.box a {
+    display: block;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    margin-left: -75px;
+    background-color: #202F12;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1050px) {
     .box {
         display: block;
         width: 45%;
