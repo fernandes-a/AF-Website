@@ -170,6 +170,13 @@ nav {
     padding: 10px 20px;
     width: 150px;
     box-sizing: border-box;
+    font-family: 'Baloo Tamma 2', Verdana, sans-serif;
+    font-size: 17px;
+}
+
+.box a:hover {
+    background-color: #846148;
+    transition: .5s;
 }
 
 @media only screen and (max-width: 1050px) {
