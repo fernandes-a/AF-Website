@@ -151,6 +151,29 @@ nav {
     float: right;
 }
 
+@media only screen and (max-width: 950px) {
+    .box {
+        display: block;
+        width: 45%;
+        height: 50vh;
+      }
+  
+      .box.one {
+          margin-left: 1%;
+      }
+  
+      .box.two {
+          margin-right: 1%;
+          float: right;
+      }
+  
+      .box.three {
+          float: left;
+          margin-left: 27%;
+          margin-top: 4vw;
+      }
+}
+
 @media only screen and (max-width: 650px) {
     .box {
         display: block;
@@ -160,16 +183,19 @@ nav {
   
       .box.one {
           margin-right: 1%;
+          margin-left: 0;
       }
   
       .box.two {
+          float: left;
           margin: 20px 0;
           margin-right: 1%;
       }
   
       .box.three {
-          float: left;
           margin-right: 1%;
+          margin-top: 0;
+          margin-left: 0;
       }
 }
 
