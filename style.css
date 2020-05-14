@@ -123,6 +123,7 @@ nav {
 
 .boxes {
     width: 92%;
+    height: 24vw;
     margin: 20px auto;
     text-align: center;
     padding:20px 15px 0px 15px; 
@@ -177,6 +178,13 @@ nav {
 .box a:hover {
     background-color: #846148;
     transition: .5s;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #202F12;
+    min-height: 200px;
+    width: 100%;
 }
 
 @media only screen and (max-width: 1050px) {
