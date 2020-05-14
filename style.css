@@ -193,6 +193,10 @@ footer {
 }
 
 @media only screen and (max-width: 1050px) {
+    .boxes {
+        height: 100vh;
+    }
+
     .box {
         display: block;
         width: 45%;
@@ -216,6 +220,10 @@ footer {
 }
 
 @media only screen and (max-width: 650px) {
+    .boxes {
+        height: 150vh;
+    }
+    
     .box {
         display: block;
         width: 98%;
