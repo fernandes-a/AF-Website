@@ -55,6 +55,7 @@ nav {
     padding: 5px 20px;
     font-size: 18px;
     text-transform: uppercase;
+    transition: .5s;
 }
 
 .nav-area li a:hover {
@@ -64,26 +65,13 @@ nav {
 }
 
 .nav-area a.active {
-    background: none;
-    box-shadow:0px 0px 0px 2px #fff inset;
-    color: #fff;
-}
-
-.nav-area a.active:hover {
     color: #162e00;
     background-color: #fff;
     font-weight: bold;
     transition: .5s;
-    border: none;
 }
 
-.nav-area a.contact {
-    color: #162e00;
-    background-color: #fff;
-    font-weight: bold;
-}
-
-.nav-area a.contact:hover {
+.nav-area a.active:hover {
     background: none;
     border: none;
     box-shadow:0px 0px 0px 2px #fff inset;
@@ -102,6 +90,38 @@ nav {
 
 #check {
     display: none;
+}
+
+nav.scroll {
+    background-color: #fff;
+    box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.52);
+    transition: .5s;
+}
+
+nav.scroll .nav-area li a {
+    color: #162e00;
+    font-weight: bold;
+    transition: .5s;
+}
+
+nav.scroll .nav-area li a:hover {
+    background-color: #202F12;
+    color: #fff;
+    border: none;
+    transition: .5s;
+}
+
+nav.scroll .nav-area a.active {
+    box-shadow: none;
+    box-shadow:0px 0px 0px 2px #202F12 inset;
+    transition: .5s;
+}
+
+nav.scroll .nav-area a.active:hover {
+    background-color: #202F12;
+    color: #fff;
+    border: none;
+    transition: .5s;
 }
 
 .welcome-text {
@@ -267,6 +287,15 @@ footer {
         display: block;
     }
 
+    nav.scroll .checkbtn {
+        color: #202F12;
+    }
+
+    nav {
+        position: fixed;
+        z-index: 5;
+    }
+
     .nav-area {
         position: fixed;
         width: 90%;
@@ -275,7 +304,7 @@ footer {
         margin-top: 0;
         margin-left: 5%;
         text-align: center;
-        top: 80px;
+        top: 90px;
         left: -100%;
         transition: all .5s;
     }
@@ -291,6 +320,19 @@ footer {
         border: none;
         color: #202F12;
         background-color: #fff;
+    }
+
+    nav.scroll .nav-area li a {
+        color: #fff;
+    }
+
+    nav.scroll .nav-area a.active {
+        color: #202F12;
+    }
+
+    nav.scroll .nav-area a.active:hover {
+        color: #fff;
+        background: none;
     }
 
     #check:checked ~ ul {
