@@ -30,11 +30,19 @@ nav {
     margin: auto;
 }
 
-.logo img {
+.logo-transparent img {
     width: 80px;
     float: left;
     margin-left: 1%;
     height: auto;
+}
+
+.logo-colored-bg img {
+    width: 80px;
+    float: left;
+    margin-left: 1%;
+    height: auto;
+    display: none;
 }
 
 .nav-area {
@@ -122,6 +130,16 @@ nav.scroll .nav-area a.active:hover {
     color: #fff;
     border: none;
     transition: .5s;
+}
+
+nav.scroll .logo-transparent img {
+    display: none;
+}
+
+nav.scroll .logo-colored-bg img {
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .welcome-text {
