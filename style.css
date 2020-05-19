@@ -35,6 +35,9 @@ nav {
     float: left;
     margin-left: 1%;
     height: auto;
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .logo-colored-bg img {
@@ -43,6 +46,8 @@ nav {
     margin-left: 1%;
     height: auto;
     display: none;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .nav-area {
@@ -67,24 +72,23 @@ nav {
 }
 
 .nav-area li a:hover {
-    border-bottom: 2px #fff solid;
-    font-weight: bold; 
-    transition: .5s;
-}
-
-.nav-area a.active {
     color: #162e00;
     background-color: #fff;
     font-weight: bold;
     transition: .5s;
 }
 
-.nav-area a.active:hover {
+.nav-area a.active {
     background: none;
     border: none;
     box-shadow:0px 0px 0px 2px #fff inset;
     color: #fff;
+    font-weight: bold;
     transition: .5s;
+}
+
+.nav-area a.active:hover {
+    box-shadow: none;
 }
 
 .checkbtn {
@@ -120,7 +124,6 @@ nav.scroll .nav-area li a:hover {
 }
 
 nav.scroll .nav-area a.active {
-    box-shadow: none;
     box-shadow:0px 0px 0px 2px #202F12 inset;
     transition: .5s;
 }
@@ -138,8 +141,6 @@ nav.scroll .logo-transparent img {
 
 nav.scroll .logo-colored-bg img {
     display: block;
-    margin-top: 4px;
-    margin-bottom: 4px;
 }
 
 .welcome-text {
@@ -332,6 +333,7 @@ footer {
         font-size: 40px;
         margin: 50px 0;
         line-height: 30px;
+        font-weight: bold;
     }
 
     .nav-area li a:hover {
@@ -345,12 +347,13 @@ footer {
     }
 
     nav.scroll .nav-area a.active {
-        color: #202F12;
+        color: #fff;
+        box-shadow:0px 0px 0px 2px #fff inset;
+    
     }
 
     nav.scroll .nav-area a.active:hover {
-        color: #fff;
-        background: none;
+        color: #202F12;
     }
 
     #check:checked ~ ul {
