@@ -160,6 +160,7 @@ nav.scroll .logo-colored-bg img {
 
 .content {
     margin: auto;
+    margin-bottom: 100px;
     width: 98%;
 }
 
@@ -235,6 +236,7 @@ nav.scroll .logo-colored-bg img {
 .nav-page-two {
     background-color: rgba(0,0,0,0.7);
 }
+
 .content-alt {
     margin: 0;
     width: 100%;
@@ -257,8 +259,30 @@ nav.scroll .logo-colored-bg img {
     height: 100vh;
 }
 
+.text-block {
+    height: 60vh;
+    padding:5%;
+}
+
+.parallax-two {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)), url("images/parallax-two.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.parallax-three {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)), url("images/parallax-three.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
 footer {
-    margin-top: 100px;
     background-color: #202F12;
     height: 70px;
     width: 100%;
@@ -401,5 +425,19 @@ footer {
 
     .content h2 {
         font-size: 25px;
+    }
+
+    .parallax-text{
+        color: #fff;
+        width: 90%;
+        padding: 0 5%;
+        font-size: 35px;
+        padding-top: 30%;
+        text-align: center;
+    }
+    
+    .parallax-one, .parallax-two {
+        background-attachment: scroll;
+        height: 100vh;
     }
 }
