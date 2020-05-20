@@ -431,12 +431,12 @@ footer {
         color: #fff;
         width: 90%;
         padding: 0 5%;
-        font-size: 35px;
+        font-size: 25px;
         padding-top: 30%;
         text-align: center;
     }
     
-    .parallax-one, .parallax-two {
+    .parallax-one, .parallax-two, .parallax-three {
         background-attachment: scroll;
         height: 100vh;
     }
