@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
 
@@ -154,8 +154,8 @@ nav.scroll .logo-colored-bg img {
 .welcome-text h1 {
     text-align: center;
     color: #fff;
-    text-transform: uppercase;
-    font-size: 50px;
+    font-size: 70px;
+    font-weight: bold;
 }
 
 .content {
@@ -230,6 +230,31 @@ nav.scroll .logo-colored-bg img {
 .box a:hover {
     background-color: #846148;
     transition: .5s;
+}
+
+.nav-page-two {
+    background-color: rgba(0,0,0,0.7);
+}
+.content-alt {
+    margin: 0;
+    width: 100%;
+}
+
+.parallax-text{
+    color: #fff;
+    width: 90%;
+    padding: 0 5%;
+    font-size: 40px;
+    padding-top: 17%;
+}
+
+.parallax-one {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)), url("images/parallax-one.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 footer {
