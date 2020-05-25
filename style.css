@@ -239,7 +239,7 @@ nav.scroll .logo-colored-bg img {
     
 }
 
-.content-alt {
+.content-how-pg {
     margin: 0;
     width: 100%;
 }
@@ -283,6 +283,13 @@ nav.scroll .logo-colored-bg img {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+}
+
+.content.tips-pg {
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    width: 98%;
 }
 
 footer {
