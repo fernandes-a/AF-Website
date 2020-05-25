@@ -10,9 +10,15 @@
 	<meta charset="utf-8">
 </head> 
 
+<script>
+    window.onscroll = () => {
+      const nav = document.querySelector('#navbar');
+      if(this.scrollY <= 10) nav.className = 'tips-pg'; else nav.className = 'scroll';
+    }; 
+    </script>
 
 <body>
-	<nav id="navbar" class="scroll">
+	<nav id="navbar" class="tips-pg">
 		<div>
 			<input type="checkbox" id="check">
 			<label for="check" class="checkbtn" title="Menu">
