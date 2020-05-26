@@ -345,6 +345,10 @@ nav.tips-pg .logo-colored-bg img {
     display: block;
 }
 
+nav.tips-pg .checkbtn {
+    color: #162e00;
+}
+
 .boxes li {
     list-style-type: none;
 }
@@ -488,5 +492,18 @@ nav.tips-pg .logo-colored-bg img {
     .parallax-one, .parallax-two, .parallax-three {
         background-attachment: scroll;
         height: 100vh;
+    }
+
+    nav.tips-pg .nav-area li a{
+        color: #fff;
+    }
+
+    nav.tips-pg .nav-area a.active {
+        box-shadow:0px 0px 0px 2px #fff inset;
+
+    }
+
+    .content.tips-pg {
+        margin-top: 100px;
     }
 }
