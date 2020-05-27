@@ -73,7 +73,7 @@ nav {
 }
 
 .nav-area li a:hover {
-    color: #162e00;
+    color: #202F12;
     background-color: #fff;
     font-weight: bold;
     transition: .5s;
@@ -112,7 +112,7 @@ nav.scroll {
 }
 
 nav.scroll .nav-area li a {
-    color: #162e00;
+    color: #202F12;
     font-weight: bold;
     transition: .5s;
 }
@@ -125,7 +125,7 @@ nav.scroll .nav-area li a:hover {
 }
 
 nav.scroll .nav-area a.active {
-    box-shadow:0px 0px 0px 2px #202F12 inset;
+    box-shadow:0px 0px 0px 2px #162e00 inset;
     transition: .5s;
 }
 
@@ -347,7 +347,7 @@ nav.tips-pg .logo-colored-bg img {
 }
 
 nav.tips-pg .checkbtn {
-    color: #162e00;
+    color: #202F12;
 }
 
 .boxes li {
