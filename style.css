@@ -352,6 +352,41 @@ nav.tips-pg .checkbtn {
 .boxes li {
     list-style-type: none;
 }
+
+header.contact-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)), url("images/contact-pg-header.jpg");
+    height: 60vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-text {
+    position: absolute;
+    width: 60%;
+    margin: 12% 20%;
+    line-height: 3em;
+    text-align: center;
+}
+
+.contact-text h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+p.contact-pg {
+    text-align: center;
+}
+
+.contact-details {
+    width: 70%;
+    margin: auto;
+}
+
+
 @media only screen and (max-width: 1050px) {
     .boxes {
         height: 100vh;
@@ -505,5 +540,18 @@ nav.tips-pg .checkbtn {
 
     .content.tips-pg {
         margin-top: 100px;
+    }
+
+    header.contact-header {
+        height: 40vh;
+    }
+
+    .contact-text {
+        margin: 30% 10%;
+        width: 80%;
+    }
+
+    .contact-text h2 {
+        font-size: 35px;
     }
 }
