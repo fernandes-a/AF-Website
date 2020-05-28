@@ -397,29 +397,37 @@ p.contact-pg {
 
 @media only screen and (max-width: 1050px) {
     .boxes {
-        height: 100vh;
+        height: 60vh;
     }
 
     .box {
         display: block;
         width: 45%;
-        height: 50vh;
-      }
+        height: 30vh;
+    }
   
       .box.one {
           margin-left: 1%;
-      }
+    }
   
       .box.two {
           margin-right: 1%;
           float: right;
-      }
+    }
   
       .box.three {
           float: left;
           margin-left: 27%;
           margin-top: 4vw;
-      }
+    }
+    
+    .contact-text {
+        margin: 35% 20%;
+    }
+
+    .boxes.row-two {
+        margin-top: 40px;
+    }
 }
 
 @media only screen and (max-width: 915px) {
@@ -455,6 +463,10 @@ p.contact-pg {
           margin-top: 0;
           margin-left: 0;
       }
+    
+    .boxes.row-two {
+        margin-top: 40px;
+    }
 }
 
 @media only screen and (max-width: 570px) {
@@ -573,4 +585,10 @@ p.contact-pg {
         width: 90%;
     }
 
+}
+
+@media only screen and (max-width: 320px) {
+    .contact-details {
+        width: 100%;
+    }
 }
